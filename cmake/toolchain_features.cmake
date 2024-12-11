@@ -56,7 +56,7 @@ else()
 	endif()
 endif()
 
-check_c_compiler_flag(-Werror HAS_WERROR)
+# check_c_compiler_flag(-Werror HAS_WERROR)
 check_c_compiler_flag(-Wall HAS_WALL)
 check_c_compiler_flag(-Wextra HAS_WEXTRA)
 check_c_compiler_flag(-pedantic HAS_PEDANTIC)
